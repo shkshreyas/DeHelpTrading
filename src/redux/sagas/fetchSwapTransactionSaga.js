@@ -11,7 +11,7 @@ import {
 function* fetchSwapTransactionList() {
   try {
     // Make an API request to fetch token data
-    const response = yield axios.get("https://swap-api.thetatoken.org/swap/pair/0x2356d65ba95e9b8cbf5ff88841cb5a371dd6ec6a/transactions");
+    const response = yield axios.get("https://swap-api.Dhelptoken.org/swap/pair/0x2356d65ba95e9b8cbf5ff88841cb5a371dd6ec6a/transactions");
 
     // Dispatch success action with the received data
     yield put(fetchSwapTransactionListSuccess(response.data.body.transactions));

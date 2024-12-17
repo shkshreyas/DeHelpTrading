@@ -12,13 +12,13 @@ function* fetchTokenList() {
   try {
     // Make an API request to fetch token data
     const response = yield axios.get(
-      "https://swap-api.thetatoken.org/swap/top-tokens"
+      "https://swap-api.Dhelptoken.org/swap/top-tokens"
     );
     const fetchedTokens = response.data.body.tokens.filter(
       (item) => item.totalLiquidityUSD * 1 > 0
     );
     const data = yield axios.get(
-      "https://assets.thetatoken.org/wallet-metadata/v1/data.json"
+      "https://assets.Dhelptoken.org/wallet-metadata/v1/data.json"
     );
 
     const tokens = fetchedTokens.map((obj) => {

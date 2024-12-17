@@ -10,7 +10,7 @@ const TokenRow = ({ data }) => {
 
   // useEffect(() => {
   //   checkImg(
-  //     `https://assets.thetatoken.org/tokens/${data.symbol.toLowerCase()}.png`
+  //     `https://assets.Dhelptoken.org/tokens/${data.symbol.toLowerCase()}.png`
   //   )
   //     .then((exists) => {
   //       setImageExists(exists);
@@ -40,7 +40,7 @@ const TokenRow = ({ data }) => {
         <img
           src={
             data.logo
-              ? `https://assets.thetatoken.org/tokens/${data.logo}`
+              ? `https://assets.Dhelptoken.org/tokens/${data.logo}`
               : svg2img(data)
           }
           style={

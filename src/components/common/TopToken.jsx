@@ -9,7 +9,7 @@ const TopToken = ({ itemData }) => {
 
   // useEffect(() => {
   //   checkImg(
-  //     `https://assets.thetatoken.org/tokens/${itemData.symbol.toLowerCase()}.png`
+  //     `https://assets.Dhelptoken.org/tokens/${itemData.symbol.toLowerCase()}.png`
   //   )
   //     .then((exists) => {
   //       setImageExists(exists);
@@ -37,7 +37,7 @@ const TopToken = ({ itemData }) => {
         className="token-element"
         src={
           itemData.logo
-            ? `https://assets.thetatoken.org/tokens/${itemData.logo}`
+            ? `https://assets.Dhelptoken.org/tokens/${itemData.logo}`
             : svg2img(itemData)
         }
         alt={itemData.symbol}

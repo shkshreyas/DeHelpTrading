@@ -77,7 +77,7 @@ const Table = () => {
                 </td>
                 <td>
                   <a
-                    href={`https://explorer.thetatoken.org/txs/${rowData.id}`}
+                    href={`https://explorer.Dhelptoken.org/txs/${rowData.id}`}
                     target="_blank"
                   >
                     <span style={{ color: "grey" }}>

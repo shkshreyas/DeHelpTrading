@@ -33,7 +33,7 @@ const Header = () => {
         <Button
           variant="contained"
           className="gradient-button font-header flow-container" // Apply the gradient-button class
-          href="https://swap.thetatoken.org/swap" // Specify the URL of the external site
+          href="https://swap.Dhelptoken.org/swap" // Specify the URL of the external site
           target="_blank" // Open the link in a new tab/window
           rel="noopener noreferrer" // Add security attributes when opening in a new tab/window
           sx={{
@@ -41,7 +41,7 @@ const Header = () => {
             wordWrap: "break-word",
           }}
         >
-          <div className="not-flow-content font-header">Trade on Thetaswap</div>
+          <div className="not-flow-content font-header">Trade on Dhelpswap</div>
         </Button>
       </div>
     </div>
@@ -58,7 +58,7 @@ const Header = () => {
           <Button
             variant="contained"
             className="gradient-button font-header flow-container" // Apply the gradient-button class
-            href="https://swap.thetatoken.org/swap" // Specify the URL of the external site
+            href="https://github.com/shkshreyas/DeHelp" // Specify the URL of the external site
             target="_blank" // Open the link in a new tab/window
             rel="noopener noreferrer" // Add security attributes when opening in a new tab/window
             sx={{
@@ -68,7 +68,7 @@ const Header = () => {
             }}
           >
             <div className="not-flow-content font-header">
-              Trade on Thetaswap
+              Trade on Dhelp Trade
             </div>
           </Button>
         </div>
